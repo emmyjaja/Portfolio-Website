@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0ba95c4406.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          
+          
+          <img class="img-logo" src="IMG/IMG_E4287.JPG" alt="Logo" />
+          <ul id="slidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark onClick="closemenu()"></i>
+            
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          
+        </nav>
+        <div class="header-text">
+          <!----<h1 class="sub-tittle">About Me</h1>------>
+
+         <!----------<p>
+            I am Emmanuel John from Nigerian <br />and i love using html5,Css3,
+            Javascripts,React, Typescripts,Mysql,Progresql,<br />and Node.js
+          </p>----->
+        </div>
+      </div>
+    </div>
+    <!-------about------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="IMG/IMG_E4462.JPG" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-tittle">About Me<br><p>
+              I am Emmanuel John I Love web development using Wordpress Cms Html
+              Css Javascripts React Typescripts and Node.js
+            </p>
+</h1>
+            <!----<p>
+              I am Emmanuel John I Love web development using Wordpress Cms, Html
+              Css Javascripts React Typescripts and Node.js
+            </p>----->
+            <div class="tab-tittles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experince')">Experince</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                </li>
+                </li>
+                <li><span>React/React-Native</span><br />Design Web App Interface</li>
+                 <li><span>Web Development</span><br />Design Web App Development</li>
+                 <li><span>Web Application</span><br />Building Android/ios App</li>
+                
+              </ul>
+            </div>
+            div class="tab-contents" id="experince">
+              <ul>
+                </li>
+                </li>
+                <li><span>2022-Current</span><br />Design Web App Interface at udemy</li>
+              </ul>
+            </div>
+            div class="tab-contents" id="education">
+            <ul>
+              </li>
+              </li>
+              <li><span>React/React-Native</span><br />Design React Applications at Freedcodecamp Youtube Channel</li>
+
+            </ul>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---services-->
+    <div id="services">
+<div class="container">
+  <h1 class="sub-tittle">My Services</h1>
+  <div class="services-List"></div>
+  <div>
+    <i class="fa-solid fa-code"></i>
+    <h1>Web Design</h1>
+    <p>I am passonate about web design</p>
+    <a href="#">Learn More</a>
+  </div>
+  <div>
+    <i class="fa-light fa-crop"></i>
+  <h2>Wordpress Developer</h2>
+  <p>I am passonate about web applications using wordpress cms</p>
+  <a href="#">Learn More</a>
+</div>
+<div>
+  <i class="fa-brands fa-app-store"></i>
+    <h3>Php Developer/React<br> and Typescripts</h3>
+    <p>I am passonate about web design using php,<br> Node.js and Typescripts</p>
+    <a href="#">Learn More</a>
+  </div>
+</div>
+<!------------portfolio--------->
+<div id="portfolio">
+  <div class="container">
+    <h4 class="sub-tittle">My Work</h4>
+    <div class="work-list">
+      <div class="work">
+        <div class="layer">
+          <h4>Social Media App</h4>
+          <p>The App connect you from talented people around the world</p>
+          <a href="#"><i class="fas-fa-external-link-alt"></i></a>
+        </div>
+        <img src="IMG/IMG_E4334.JPG">
+      </div>
+    </div>
+    <div id="work-2">
+        <img src="IMG/IMG_4487.JPG">
+        <div class="layer">
+          <h5>Music App</h5>
+          <p>The App connect you from talented people around the world</p>
+          <a href="#"><i class="fas-fa-external-link-alt"></i></a>
+        </div>
+      </div>
+    <div id="work-3">
+     <img src="IMG/IMG_E4462.JPG">
+     <div class="layer">
+          <h6>Online Shopping App</h6>
+          <p>The App connect you from talented people around the world</p>
+          <a href="#"><i class="fas-fa-external-link-alt"></i></a>
+        </div>
+      </div>
+
+  </div>
+  <a href="#" class="btn">See More</a>
+</div>
+
+ </div>
+ <!-----contact------>
+ <div class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h7 class="sub-tittle">Contact Me</h7>
+      </div>
+      <div class="contact-left"></div>
+    
+    </div>
+  </div>
+ </div>
+ <!---contact-->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="conatact-left">
+        <!--<h7 class="sub-tittle">Contact Me</h7>------>
+        <p>contact@:emmajohnu1@gmail.com</p>
+        <div id="social-icons">
+          <a href="IMG/IMG_4487.JPG" download class="btn btn2">Download Cv</a>
+        </div>
+
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>copyright @ Emmanuel John</p>
+  </div>
+
+ </div>
+
+   <script>
+
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+   }
+   for(tacontents of tabcontents){
+    tabcontents.classList.remove("active-tab");
+   }
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab")
+
+}
+
+
+    </script>
+    <script>
+
+var sidemenu=document.getElementById("sidemenu");
+function openmenu(){
+  sidemenu.style.right=("0")
+}
+
+function closemenu(){
+  sidemenu.style.right=("-200px")
+}
+
+
+    </script>
+    </body>
+</html>
